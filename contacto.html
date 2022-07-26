@@ -15,61 +15,87 @@
   <body>
     <header>
       <div class="container">
-        <a href="">
-          <img src="Imagenes/Logo.png" alt="logo" height="150" />
-        </a>
-        <nav>
-          <ul class="nav__list">
-            <li><a class="nav__link" href="index.html"> Home</a></li>
-            <li>
-              <a class="nav__link" href="institucional.html"> Institucional</a>
-            </li>
-            <li>
-              <a class="nav__link" href="Nuestros productos.html">
-                Nuestros Productos</a
-              >
-            </li>
-            <li><a class="nav__link" href="recetas.html"> Recetas</a></li>
-            <li><a class="nav__link" href="Contacto.html"> Contacto</a></li>
-          </ul>
-        </nav>
+        <div class="row">
+          <a href="">
+            <img src="Imagenes/Logo.png" alt="logo" height="100" />
+          </a>
+          <nav class="nav">
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a class="nav__link" href="index.html"> Home</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="institucional.html">
+                  Institucional</a
+                >
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="Nuestros productos.html">
+                  Nuestros Productos</a
+                >
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="recetas.html"> Recetas</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="Contacto.html"> Contacto</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
       </div>
     </header>
 
+
     <div class="container">
-      <h1>
-        Encontranos Ruta Panorámica camino a Las Cañas, Fray Bentos, Uruguay
-        <br />
-      </h1>
-      <section>
-        <img
-          src="imagenes/Photo 3.jpg"
-          alt="foto panorámica de nuestra estancia"
-          height="250"
-        />
-      </section>
-      <br />
-      <fieldset>
-        <legend>
-          Por consultas, complete el formulario de contacto y nos contactareos
-          con usted
-        </legend>
-        <label for="Nombre y Apellido">Nombre y Apellido:</label>
-        <input type="text" name="Nombre y apellido" id="Nombre y Apellido" />
-        <br />
-        <label for="Telefono">Teléfono:</label>
-        <input type="text" name="Telefono" id="Telefono" />
-        <br />
-        <label for="Correo electronico">Correo Electrónico:</label>
-        <input type="text" name="Correo electrónico" id="correo electrónico" />
-        <br />
-        <label for="mensaje">Escriba su consulta</label>
-        <br />
-        <textarea name="Mensajes" id="mesajes" cols="20" rows="10"></textarea>
-        <br />
-        <input type="submit" value="Enviar datos" />
-      </fieldset>
-    </div>
+      <div class="grid-containercontacto">
+        <div class="grid-item grid-item-contacto1">      <h1>
+          Encontranos Ruta Panorámica camino a Las Cañas, Fray Bentos, Uruguay</div>
+        <div class="grid-item grid-item-contacto2">
+          <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d765.6217793847555!2d-58.349174170809455!3d-33.138121998804046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x63d493d76ae623a1!2zMzPCsDA4JzE3LjIiUyA1OMKwMjAnNTUuMSJX!5e1!3m2!1ses-419!2sar!4v1658278456074!5m2!1ses-419!2sar"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        </div>
+        <div class="grid-item grid-item-contacto3">      <fieldset>
+          <legend>
+            Por consultas, complete el formulario de contacto y nos contactareos
+            con usted
+          </legend>
+          <label for="Nombre y Apellido">Nombre y Apellido:</label>
+          <input type="text" name="Nombre y apellido" id="Nombre y Apellido" />
+          <br />
+          <label for="Telefono">Teléfono:</label>
+          <input type="text" name="Telefono" id="Telefono" />
+          <br />
+          <label for="Correo electronico">Correo Electrónico:</label>
+          <input type="text" name="Correo electrónico" id="correo electrónico" />
+          <br />
+          <label for="mensaje">Escriba su consulta</label>
+          <br />
+          <textarea name="Mensajes" id="mesajes" cols="20" rows="10"></textarea>
+          <br />
+          <input type="submit" value="Enviar datos" />
+        </fieldset>
+
+        </div>
+        
+      
+        </div>
+      
+
+
+
+
+      </div>
+
+
+
   </body>
 
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
