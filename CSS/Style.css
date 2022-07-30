@@ -54,22 +54,13 @@ h1 {
 
 header {
   background-color: #31572c;
-  position: sticky;
+  
   top: 0;
   z-index: 2;
   text-align: center;
 }
 
-Body {
-  background-image: radial-gradient(
-    circle,
-    #31572c,
-    #466b36,
-    #5d7f41,
-    #75944b,
-    #90a955
-  );
-}
+Body {background-image: radial-gradient(     circle,     #31572c,     #466b36,     #5d7f41,     #75944b,     #90a955   );}
 body {
   font-family: "Source Sans Pro", sans-serif;
 }
@@ -109,7 +100,12 @@ footer {
 
 
 
-@media (min-width: 768px) {
+@media (min-width: 768px) [
+
+header {
+  position: sticky;
+}]
+
 .container {
   width: 80%;
 
