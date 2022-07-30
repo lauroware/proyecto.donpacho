@@ -54,13 +54,24 @@ h1 {
 
 header {
   background-color: #31572c;
-  
+
   top: 0;
   z-index: 2;
-  text-align: center;
+
+
+
 }
 
-Body {background-image: radial-gradient(     circle,     #31572c,     #466b36,     #5d7f41,     #75944b,     #90a955   );}
+Body {
+  background-image: radial-gradient(
+    circle,
+    #31572c,
+    #466b36,
+    #5d7f41,
+    #75944b,
+    #90a955
+  );
+}
 body {
   font-family: "Source Sans Pro", sans-serif;
 }
@@ -100,12 +111,7 @@ footer {
 
 
 
-@media (min-width: 768px) [
-
-header {
-  position: sticky;
-}]
-
+@media (min-width: 768px) {
 .container {
   width: 80%;
 
@@ -121,7 +127,11 @@ header {
 .nav__list {
   list-style: none;
   display: flex;
+
 }
+
+header {
+position: sticky;}
 
 .row{
   display: flex;
