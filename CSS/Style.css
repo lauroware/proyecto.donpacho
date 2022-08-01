@@ -8,7 +8,19 @@ img {
   max-width: 100%;
 }
 
-
+Body {
+  background-image: radial-gradient(
+    circle,
+    #31572c,
+    #466b36,
+    #5d7f41,
+    #75944b,
+    #90a955
+  );
+}
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
 
 .nav__item {
   margin: 3rem 0 0 1.5rem;
@@ -62,19 +74,7 @@ header {
 
 }
 
-Body {
-  background-image: radial-gradient(
-    circle,
-    #31572c,
-    #466b36,
-    #5d7f41,
-    #75944b,
-    #90a955
-  );
-}
-body {
-  font-family: "Source Sans Pro", sans-serif;
-}
+
 
 .titulo {
   font-size: 2.5rem;
