@@ -8,7 +8,7 @@ img {
   max-width: 100%;
 }
 
-Body {
+body {
   background-image: radial-gradient(
     circle,
     #31572c,
@@ -33,7 +33,6 @@ body {
   }
 
 
-
 .container {
   width: 95%;
   margin: 0 auto;
@@ -41,7 +40,7 @@ body {
 
 }
 
- 
+
 img,
 svg {
   vertical-align: middle;
@@ -56,8 +55,6 @@ h1 {
   text-align: left ;
 }
 
-
-
 .nav__link {
   text-decoration: none;
   color: white;
@@ -66,15 +63,9 @@ h1 {
 
 header {
   background-color: #31572c;
-
   top: 0;
   z-index: 2;
-
-
-
 }
-
-
 
 .titulo {
   font-size: 2.5rem;
@@ -105,66 +96,7 @@ footer {
   padding: 2rem;
   box-shadow: 0 10px 30px -10 px rgba(0, 0, 0, 0.45);
 }
-.card {background: grey;}
 
-
-
-
-
-@media (min-width: 768px) {
-.container {
-  width: 80%;
-
-    }
-
-.nav{
-  display: flex
-  justify-content: flex-end
-  heigth: auto
-  position: relative;
-}
-
-.nav__list {
-  list-style: none;
-  display: flex;
-
-}
-
-header {
-position: sticky;}
-
-.row{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.col{
-  width: 100%;
-}
-
-.grid-container {
-  padding: 5%;
-  display: grid;
-  grid-template-columns: 2fr 2fr;
-  grid-template-rows: 2fr;
-  grid-template-areas: 
-  "titulo foto"
-  "presentacion"
-  
-
-.grid-item-1 { grid-area: titulo;
-}
-
-.grid-item-2 {
-  grid-area: presentacion;
-} 
-
-.grid-item-3 {
-  grid-area: foto;
-}
-
-}
 
 .grid-item {
   font-size: 1.5rem;
@@ -175,7 +107,59 @@ position: sticky;}
   font-size: 2rem;
   text-align: center;
 
-
-
-
 }
+
+
+  @media (min-width: 768px) {
+    .container {
+      width: 80%;
+    
+        }
+    
+    .nav{
+      display: flex
+      justify-content: flex-end
+      heigth: auto
+      position: relative;
+    }
+    
+    .nav__list {
+      list-style: none;
+      display: flex;
+    
+    }
+    
+    header {
+    position: sticky;}
+    
+    .row{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    
+    .col{
+      width: 100%;
+    }
+    
+    .grid-container {
+      padding: 5%;
+      display: grid;
+      grid-template-columns: 2fr 2fr;
+      grid-template-rows: 2fr;
+      grid-template-areas: 
+      "titulo foto"
+      "presentacion"
+      
+    
+    .grid-item-1 { grid-area: titulo;
+    }
+    
+    .grid-item-2 {
+      grid-area: presentacion;
+    } 
+    
+    .grid-item-3 {
+      grid-area: foto;
+    }
+    }   }
