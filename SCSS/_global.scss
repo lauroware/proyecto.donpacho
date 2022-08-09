@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: radial-gradient(
+    circle,
+    #31572c,
+    #466b36,
+    #5d7f41,
+    #75944b,
+    #90a955
+  );
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+footer {
+  background-color: #ecf39e;
+  color: black;
+}
+
+header {
+  background-color: #31572c;
+  top: 0;
+  z-index: 2;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  width: 95%;
+  margin: 0 auto;
+}
+
+h1 {
+  color: black;
+}
+
+.titulo {
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+
+.descripcion {
+  font-size: 1.5rem;
+}
+.Redes {
+  font-size: 1rem;
+}
+.ubiacacion {
+  font-size: 1rem;
+}
+
+.card {
+  margin: 60px;
+  max-width: 300px;
+  padding: 2rem;
+  box-shadow: 0 10px 30px -10 px rgba(0, 0, 0, 0.45);
+}
+
+.grid-item {
+  font-size: 1.5rem;
+  padding: 20px 20px 20px 20px;
+}
+
+.encabezado {
+  font-size: 2rem;
+  text-align: center;
+}
