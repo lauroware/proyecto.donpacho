@@ -5,17 +5,21 @@
 }
 
 body {
-  background-image: radial-gradient(circle, #31572c, #466b36, #5d7f41, #75944b, #90a955);
+  background: #E6DADA;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #274046, #E6DADA);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #274046, #E6DADA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
   font-family: "Source Sans Pro", sans-serif;
 }
 
 footer {
-  background-color: #ecf39e;
-  color: black;
+  background-color: black;
+  color: white;
+  text-align: end;
 }
 
 header {
-  background-color: #31572c;
+  background-color: grey;
   top: 0;
   z-index: 2;
 }

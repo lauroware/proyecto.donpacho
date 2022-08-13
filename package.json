@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/lauroware/prueba/issues"
   },
-  "homepage": "https://github.com/lauroware/prueba#readme"
+  "homepage": "https://github.com/lauroware/prueba#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.0"
+  }
 }
