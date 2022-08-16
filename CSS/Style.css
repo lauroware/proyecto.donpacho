@@ -10,6 +10,7 @@
   padding-bottom: 56.26%;
   position: relative;
 }
+
 .iframes iframe {
   position: absolute;
   width: 100%;
@@ -18,17 +19,8 @@
 
 body {
   background: #e6dada; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to left,
-    #274046,
-    #e6dada
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to left,
-    #274046,
-    #e6dada
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  background: -webkit-linear-gradient(to left, #274046, #e6dada); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #274046, #e6dada); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   font-family: "Source Sans Pro", sans-serif;
 }
 
@@ -66,11 +58,11 @@ h1 {
   font-size: 1.5rem;
 }
 
-.Redes {
-  font-size: 1rem;
+.nuestrosproductos {
+  text-align: center;
 }
 
-.ubiacacion {
+.Redes, .ubiacacion {
   font-size: 1rem;
 }
 
@@ -97,6 +89,22 @@ h1 {
 
 .nav__link {
   text-decoration: none;
+  text-transform: uppercase;
+}
+
+.nav__list {
+  list-style: none;
+  position: relative;
+  align-items: center;
+}
+
+.nav__item {
+  margin: 3rem 0 0 1.5rem;
+  color: 196;
+}
+
+.nav__link {
+  text-decoration: none;
   color: white;
   text-transform: uppercase;
 }
@@ -117,7 +125,6 @@ h1 {
     heigth: auto;
     position: relative;
   }
-
   .nav__list {
     list-style: none;
     display: flex;

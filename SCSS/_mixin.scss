@@ -1,0 +1,7 @@
+@mixin cardsetup($padding){
+    margin: 60px;
+    max-width: 300px;
+    padding: $padding;
+    box-shadow: 0 10px 30px -10 px rgba(0, 0, 0, 0.45);
+
+}
