@@ -34,12 +34,13 @@ body {
 
 footer {
   background-color: black;
-  color: map-get($colors , color-white );
+  color: map-get($colors, color-white);
   text-align: center;
+  
 }
 
 header {
-  background-color: map-get($colors, color-grey );
+  background-color: map-get($colors, color-grey);
   top: 0;
   z-index: 2;
 }
@@ -54,7 +55,7 @@ img {
 }
 
 h1 {
-  color: map-get($colors, color-black );
+  color: map-get($colors, color-black);
 }
 
 .titulo {
@@ -75,12 +76,11 @@ h1 {
 }
 
 .ubiacacion {
-  @extend .Redes
+  @extend .Redes;
 }
 
 .card {
-  @include cardsetup (2rem);
-
+  @include cardsetup(2rem);
 }
 
 .grid-item {

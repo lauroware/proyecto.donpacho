@@ -19,8 +19,16 @@
 
 body {
   background: #e6dada; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #274046, #e6dada); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #274046, #e6dada); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: -webkit-linear-gradient(
+    to left,
+    #274046,
+    #e6dada
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #274046,
+    #e6dada
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   font-family: "Source Sans Pro", sans-serif;
 }
 
@@ -28,12 +36,17 @@ footer {
   background-color: black;
   color: white;
   text-align: center;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 header {
   background-color: grey;
   top: 0;
   z-index: 2;
+  text-transform: uppercase;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: bold;
+  font-size: medium;
 }
 
 img {
@@ -62,7 +75,8 @@ h1 {
   text-align: center;
 }
 
-.Redes, .ubiacacion {
+.Redes,
+.ubiacacion {
   font-size: 1rem;
 }
 
@@ -89,7 +103,6 @@ h1 {
 
 .nav__link {
   text-decoration: none;
-  text-transform: uppercase;
 }
 
 .nav__list {

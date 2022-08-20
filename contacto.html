@@ -94,17 +94,22 @@
     
     
               <h2>Para contactarnos, complete el formulario</h2>  
-              <div class="mb-3">
+              <form
+              action="https://formspree.io/f/mrgdgwde"
+              method="POST"
+            >
+            <div class="mb-3">
                 <label for="exampleFormControlInput1" class="form-label">Correo Electronico</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="correo@correo.com">
+                <input type="email" name="email" class="form-control" id="exampleFormControlInput1" placeholder="correo@correo.com">
               </div>
               <div class="mb-3">
                 <label for="exampleFormControlTextarea1" class="form-label">Consulta</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                <textarea namer="message" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                <!-- your other form fields go here -->
                 <button type="submit" class="btn btn-primary">Enviar</button>
               </div>
+            </form>
             
-          
             </div>
 
       </div>
