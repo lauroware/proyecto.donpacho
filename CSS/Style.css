@@ -90,6 +90,10 @@ h1 {
   max-width: 100%;
 }
 
+.fotoolivo {
+  margin: 5rem;
+}
+
 @media (min-width: 768px) {
   .container {
     width: 85%;
