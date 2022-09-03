@@ -86,6 +86,10 @@ h1 {
   text-align: center;
 }
 
+.row {
+  max-width: 100%;
+}
+
 @media (min-width: 768px) {
   .container {
     width: 85%;
@@ -107,7 +111,6 @@ h1 {
     align-items: center;
     justify-content: space-between;
     padding: 2%;
-    max-width: 100%;
   }
   .foto1 {
     height: 250px;
