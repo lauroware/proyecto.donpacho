@@ -18,11 +18,10 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100%;
+    padding: 2%;
+    max-width: 100%;
   }
-  .col {
-    width: 100%;
-  }
+
   .foto1 {
     height: 250px;
   }
@@ -35,6 +34,7 @@
     grid-template-columns: 2fr 2fr;
     grid-template-rows: 2fr;
     grid-template-areas: "titulo foto" "presentacion";
+    max-width: 100%;
 
   }
 }
