@@ -36,13 +36,15 @@ footer {
   background-color: black;
   color: map-get($colors, color-white);
   text-align: center;
-  
 }
 
 header {
   background-color: map-get($colors, color-grey);
   top: 0;
   z-index: 2;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
 }
 
 img {
@@ -91,19 +93,4 @@ h1 {
 .encabezado {
   font-size: 2rem;
   text-align: center;
-}
-
-.nav__item {
-  margin: 3rem 0 0 1.5rem;
-}
-
-.nav__link {
-  text-decoration: none;
-  text-transform: uppercase;
-}
-
-.nav__list {
-  list-style: none;
-  position: relative;
-  align-items: center;
 }
